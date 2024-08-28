@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=divice-width, initial-scale=1,0">
+    <title>Decodificador e Codificador</title>
+    <link rel="shortcut icon" href="logo pequeno.jpeg" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main container">
+        <header class="cabecalho"> 
+            <img src="logo pequeno2.jpg" alt="logo pequeno2"> 
+            <h1>Mensagens Codificadas</h1>
+        </header>
+        
+    <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui ...."></textarea> 
+                <p>ATENÇÃO: Apenas letras maiúsculas e sem acento</p>
+            </div>
+
+        <div id="output">
+            <img src="coruja.jpeg" alt="img coruja"> 
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar</span>
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="icons">
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        <h3>Desenvolvido por Fabio Augusto</h3>
+    </footer>
+
+    <script src="interacao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
+
